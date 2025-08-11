@@ -1,0 +1,4 @@
+role,s3_list,s3_put,ec2_describe,ec2_start_dryrun
+Admin,True,True,True,False
+Developer,True,True,True,False
+ReadOnly,True,False,True,False

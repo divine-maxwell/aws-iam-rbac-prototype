@@ -1,0 +1,26 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EC2Describe",
+      "Effect": "Allow",
+      "Action": ["ec2:Describe*"],
+      "Resource": "*"
+    },
+    {
+      "Sid": "S3ProjectBucketsRW",
+      "Effect": "Allow",
+      "Action": ["s3:PutObject","s3:GetObject","s3:ListBucket"],
+      "Resource": [
+        "arn:aws:s3:::dm-rbac-*",
+        "arn:aws:s3:::dm-rbac-*/*"
+      ]
+    },
+    {
+      "Sid": "CloudWatchLogsWrite",
+      "Effect": "Allow",
+      "Action": ["logs:CreateLogGroup","logs:CreateLogStream","logs:PutLogEvents"],
+      "Resource": "*"
+    }
+  ]
+}
