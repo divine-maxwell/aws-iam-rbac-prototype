@@ -7,3 +7,4 @@
 *.csv
 !analytics/athena-cloudtrail/artifacts/csv/*.csv
 analytics/athena-cloudtrail/artifacts/csv/
+analytics/athena-cloudtrail/artifacts/csv/
