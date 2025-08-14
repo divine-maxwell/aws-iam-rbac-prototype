@@ -6,3 +6,4 @@
 # Athena result dumps (we keep only curated CSVs in artifacts/)
 *.csv
 !analytics/athena-cloudtrail/artifacts/csv/*.csv
+analytics/athena-cloudtrail/artifacts/csv/
